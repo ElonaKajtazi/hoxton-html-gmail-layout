@@ -12,14 +12,19 @@
     "left-menu main right-menu" 1fr
     "left-menu main right-menu" auto /
        auto 1fr auto ;
-
 }
-      
-  
+  input{
+     
+      width: 300px;
+      height: 50px;
+      background-color: #f1f3f4;
+      border: 1px white;
+      border-radius: 10px;      
+}
 .header {
     grid-area: header;
     background-color: #ffffff;
-    padding: 1rem;
+    margin: 1rem;
 }
 
 .left-menu {
@@ -29,10 +34,8 @@
 }
 .main {
     grid-area: main;
-    background-color: aqua;
     padding: 1rem;
-    background-color: white;
-  
+    background-color: white;  
 }
 .main p {
     background-color: #f5f6f7;
@@ -71,7 +74,7 @@ p{
 
 .right-menu {
     grid-area: right-menu;
-    background-color: antiquewhite;
+    background-color:white
     padding: 1rem;
 
 }
@@ -161,9 +164,20 @@ li p {
         'left-menu  main' auto /
           auto 1fr;
     }
-  
     .right-menu {
       display: none;
     }
   }
- 
+  @media screen and (max-width: 400px) {
+    .container {
+      grid-template:
+        'header main' 1fr
+        'main main' auto /
+        1fr;
+    }
+  
+    .left-menu {
+      display: none;
+    }
+  
+} 
