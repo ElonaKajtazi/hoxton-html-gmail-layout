@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .container {
     height: 100vh;
@@ -20,16 +21,52 @@
     background-color: #ffffff;
     padding: 1rem;
 }
+
 .left-menu {
     grid-area: left-menu;
-    background-color: brown;
+    background-color: #ffffff;
     padding: 1rem;
 }
 .main {
     grid-area: main;
     background-color: aqua;
     padding: 1rem;
+    background-color: white;
   
+}
+.main p {
+    background-color: #f5f6f7;
+}
+
+p.bold{
+    background-color: white;
+}
+p.bold1 {
+    background-color: white;
+}
+p.bold2 {
+    background-color: white;
+}
+p.bold3 {
+    background-color: white;
+}
+p.bold4 {
+    background-color: white;
+}
+p.bold5 {
+    background-color: white;
+}
+p.bold6 {
+    background-color: white;
+}
+p.bold7 {
+    background-color: white;
+}
+p.bold8{
+    background-color: white;
+}
+p{
+    padding: 0.3rem;
 }
 
 .right-menu {
@@ -38,8 +75,83 @@
     padding: 1rem;
 
 }
+.left-menu button {
+    margin: 1rem;
+    background-color: #ffffff;
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 25px;
+    width: 140px;
+    height: 50px;
+    box-shadow: 1px 10px 20px 0px #cacbcc;
+   
+}
+.left-menu button img {
+    width: 100px;
+}
+
 ul {
     list-style: none;
+    padding: 1rem;
+
+}
+h1 {
+    color: #73777b;
+    font-size: medium;
+    
+}
+.inbox {
+    background-color: #fce8e6;
+    color: #cf1009;
+    padding-bottom: 10px;
+}
+.inbox img{
+    width: 40px;
+
+}
+
+.starred {
+    color: #5f6368;
+    
+}
+.snoozed {
+    color: #5f6368;
+}
+.important {
+    color: #5f6368;
+}
+.sent {
+    color: #5f6368;
+}
+.team {
+    color: #5f6368;
+}
+.new-rfps {
+    color: #5f6368;
+}
+.personal {
+    color: #5f6368;
+}
+.more {
+    color: #5f6368;
+}
+.start-a-meeting {
+    color:  #5f6368;
+}
+.join-a-meeting {
+    color:  #5f6368;;
+}
+.nina {
+    color: #5f6368;
+}
+.tom {
+    color: #5f6368;
+}
+.jessica {
+    color: #5f6368;
+}
+li p {
+    margin-left: 40px;
+    color: #d3d4d5;
 }
 @media screen and (max-width: 600px) {
     .container {
