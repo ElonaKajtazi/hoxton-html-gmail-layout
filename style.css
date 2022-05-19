@@ -171,8 +171,8 @@ li p {
   @media screen and (max-width: 400px) {
     .container {
       grid-template:
-        'header main' 1fr
-        'main main' auto /
+        'header' 1fr
+        'main' auto /
         1fr;
     }
   
